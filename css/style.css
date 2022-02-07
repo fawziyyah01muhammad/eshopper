@@ -1,0 +1,148 @@
+/* Make the image fully responsive */
+  /*.carousel-inner img {
+    width: 100%;
+    height: 100%;
+  }
+
+  body, html{
+  height: 110%;
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.hero-image {
+  background-image: linear-gradient(rgba(14, 11, 199, 0.911), rgba(29, 26, 226, 0.829)),url("../img/computer.jpg");
+  height: 90%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}*/
+/* .shadow{
+	box-shadow: auto;
+	border: 1px solid;
+	margin-top: 50px;
+	height: 350px;
+	width: 60vw;
+	background-color: white;
+}
+h1{
+	text-align: center;
+}
+.Arial{
+       font-size: 16px;
+       margin-left: 35px;
+       margin-bottom: 95px;
+       color: skyblue;
+}
+p{
+	text-align: center;
+}
+p.italic{
+	font-style: italic;
+	font-size: 9px;
+	margin: 20px;
+	text-align: justify;
+}
+#rcorners3 {
+    border-radius: 175px;
+    background: url("../img/fawziyyah.png");
+    background-position: left top;
+    background-repeat: repeat;
+    margin-left:10px;
+    margin-bottom: 10px;
+    padding: 10px; 
+    width: 90px;
+    height: 90px;
+
+} */
+	.coloumn{
+  display: flex;
+  margin-left: 10px;
+}
+#circle1{
+  width: 70px;
+  height: 70px;
+  margin-right: 70px;
+/* position: absolute; */
+border-radius: 100px;
+background-color:rgb(238, 86, 243);
+}
+#circle2{
+  width: 105px;
+  height: 105px;
+  margin-right: 80px;
+/* position: absolute; */
+border-radius: 70px;
+background-color:rgb(238, 86, 243);
+}
+
+#circle3{
+  width: 10px;
+  height: 10px;
+  margin-bottom: 20px;
+border-radius: 100px;
+background-color:rgb(58, 6, 88);
+}
+
+
+/* Bootstrap custome carousel */
+.carousel-indicators .active {
+  color: blue !important;
+}
+.carousel-indicators [data-bs-target] {
+  box-sizing: content-box;
+  flex: 0 1 auto;
+  width: 30px;
+  height: 3px;
+  padding: 0;
+  margin-right: 3px;
+  margin-left: 3px;
+  margin-top: 60%;
+  text-indent: -999px;
+  cursor: pointer;
+  background-color: white !important;
+  background-clip: padding-box;
+  border: 0;
+  border-top: 10px solid transparent;
+  border-bottom: 10px solid transparent;
+  opacity: .5;
+  transition: opacity .6s ease;
+}
+#faz{
+  background: linear-gradient(rgba(245, 1, 253, 0.836), rgb(242, 5, 250)), url(../img/flower.jpg);
+  height: 80vh;
+  margin-top: 20px;
+}
+#faz .card {
+  height: 65vh;
+  width: 50vw;
+}
+
+.faz-text {
+  font-size: 9px;
+  text-align: justify;
+  font-style: italic;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  margin-bottom:10px;
+}
+img{
+  border-radius: 70%;
+  margin-top: 5px;
+  margin-left: 6px;
+  -webkit-box-shadow: 2px 2px 5px 0px rgba(245, 1, 253, 0.836);
+    -moz-box-shadow: 2px 2px 5px 0px rgba(245, 1, 253, 0.836);
+    box-shadow: 2px 2px 5px 0px rgba(245, 1, 253, 0.836);
+}
+@media(max-width){
+  .carousel-card text{
+    font-size: 5px;
+  margin-bottom:0px;
+  }
+  .carousel .item>img {
+   margin-top: 0px;
+   margin-left: 0px;
+    min-width: 20%;
+    height: 20%;
+  }
+}

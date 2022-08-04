@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+   <link href="https://fonts.googleapis.com/css2? family=poppins:wght@100;200;300;400;600;700display=swap" rel="stylesheet">
+   <link rel="stylesheet" href="./css/all.min.css">
+   <!-- <link rel="stylesheet" href="./css/bootstrap.min.css"> -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/style.css/font-awesome.min.css">
+   <link rel="stylesheet" href="./css/style.css">
+
+    <title>Eshopper</title>
+    
+</head>
+<body>
+    <!-- ---------------------header--------------- -->
+    <div class="header">
+        <p>FAQs</p>
+        <p>Help</p> 
+        <p>Support</p>
+        <div class="icons" style="float:right;">
+            <i class="fa-brands fa-facebook-f"></i>
+            <i class="fa-brands fa-twitter"></i>
+            <i class="fa-brands fa-linkedin-in"></i>
+            <i class="fa-brands fa-instagram"></i>
+            <i class="fa-brands fa-youtube"></i>
+            </div>
+    </div>
+    <div class="row">
+        <div class="col">
+            <div class="E">
+    <span class="E">E</span><h1>Shopper</h1></div>
+        </div>
+        <div class="col">
+            <div class="con">
+        <input placeholder="Search for products">
+        <button type="submit" class="col-button"><i class="fa-solid fa-magnifying-glass"></i></button>
+        </div>
+        </div>
+        <div class="col">
+            <div class="con">
+        <button type="button" class="col-button2"><i class="fa-solid fa-heart"></i> 0</button>
+        <button type="button" class="col-button2"><i class="fa-solid fa-cart-shopping"></i> 0</button>
+        </div>
+        </div>
+    </div>
+    </div>
+    <!-- -----------------section 1--------------------- -->
+    <div class="section1-row">
+        <div class="section1-col">
+    <div class="dropdown">
+        <button class="dropbtn"  onclick ="dropDown()">Categories<span><i class="fa-solid fa-angle-down"></i></span></button>
+        <div class="dropdown-content" id="dropdown">
+            <ul>
+                <div class="dropdown2">
+                    <li><a href="">Dresses</a><span><i class="fa-solid fa-angle-down"></i></span></li>
+                    <div class="dropdown2-content">
+                    <li><a href="">Men's Dresses</a></li>
+                    <li><a href="" >Women's Dresses</a></li>
+                    <li><a href="">Chilredn's Dresses</a></li>
+                    </div>
+        
+            <li><a href="">Jeans</a></li>
+            <li><a href="">Shirts</a></li>
+            <li><a href="">Swimwear</a></li>
+            <li><a href="">Sleepwear</a></li>
+            <li><a href="">Sportswear</a></li>
+            <li><a href="">Jumpsuits</a></li>
+            <li><a href="">Blazers</a></li>
+            <li><a href="">Jackets</a></li>
+            <li><a href="">Shoes</a></li>
+            <li style="border-bottom:none;"><a href="">Jeans</a></li>
+        </ul>
+          
+        </div>
+      </div>
+      </div>
+    <nav>
+        <div class="nav-links">
+        <ul>
+            <div class="nav-links" Id="checkmenu">
+                <i class="fa fa-times" onclick ="hideMenu()"></i> 
+            <li><a href="index.html">Home</a></li>
+            <li> <a href="">Shop</a></li>
+            <li> <a href="shop-details.html">Shop Detail</a></li>
+            <li> <a href="">Pages</a></li>
+            <li> <a  class="active" href="contact.html">Contact </a></li>
+            <li> <a href="">login</a></li>
+            <li> <a href="">Register</a></li>
+        </ul>
+        </div>
+        <i class="fa fa-bars" onclick ="showMenu()"></i>
+    </nav>
+    </div>
+
+    <section class="sub-header">
+        <h1>CONTACT US</h1>
+            <ul>
+        <li><a class="choosen" href="">Home </a></li>
+        <li>-</li>
+        <li> <a href="">Contact </a></li>
+        </ul>
+    </section>
+
+    
+    <div class="contact">
+        <section class="contact-us">
+            <div class="container">
+            <h1>Contact For Any Queries</h1>        
+    </div>
+
+    <div class="row">
+        <div class= "contact-col">
+			<form action="form-handler.php" method="post">
+				<input type="text" name="name" placeholder="Enter your name" required>
+				<input type="email" name="email" placeholder="Enter email address" required>
+				<input type="text" name="subject" placeholder="Enter your subject" required>
+				<textarea rows="8" name="message" placeholder="Message" required></textarea>
+				<button type="submit" class="section6-col-button">Send Message</button>
+			</form>
+		</div>
+		<div class="contact-col">
+			<div>
+			<span>
+			<h5>Get In Touch</h5>
+			<p>UI/UX are two indipendent terms. while UI generally deal with the interaction
+                between users and computer systems, software and application</p>
+			</span>
+		</div>
+		<div>
+	
+			<span>
+			<h5>store 1</h5>
+			<p><i class="fa-solid fa-location-dot"></i>123 street New York USA</p>
+             <p><i class="fa-solid fa-envelope"></i>mziyyah010@gmail.com</p>
+             <p><i class="fa-solid fa-phone"></i>+012345 6/500</p>
+			</span>
+		</div>
+		<div>
+			<span>
+                <h5>store 2</h5>
+                <p><i class="fa-solid fa-location-dot"></i>123 street New York USA</p>
+                 <p><i class="fa-solid fa-envelope"></i>mziyyah010@gmail.com</p>
+                 <p><i class="fa-solid fa-phone"></i>+012345 6/500</p>
+			</span>
+		</div>
+		</div>
+	</div>
+    </section>
+     
+    <div class="footer">
+        <div class="footer-row">
+            <div class="footer-col">
+                <div class="row" style="border: none;">
+                   <div class="E">
+                       <span class="E">E</span><h1>Shopper</h1></div>
+           </div>
+                <p>between users and computer systems, software and application.</p>
+                <p><i class="fa-solid fa-location-dot"></i>123 street New York USA</p>
+                <p><i class="fa-solid fa-envelope"></i>mziyyah010@gmail.com</p>
+                <p><i class="fa-solid fa-phone"></i>+012345 6/500</p>
+            </div>
+            <div class="footer-col" style="margin-left: 30px;">
+               <h3>Quick links</h3><br>
+               <ul>
+                   <li>Home</li>
+                   <li>Our Shop</li>
+                   <li>Shop Details</li>
+                   <li>Sopping Cart</li>
+                   <li>Check Out</li>
+                   <li>Contact Us</li>
+               </ul>
+           </div>
+           <div class="footer-col" style="margin-left: 30px;">
+               <h3>Quick links</h3><br>
+               <ul>
+                   <li>Home</li>
+                   <li>Our Shop</li>
+                   <li>Shop Details</li>
+                   <li>Sopping Cart</li>
+                   <li>Check Out</li>
+                   <li>Contact Us</li>
+               </ul>
+           </div>        <div class="footer-col">
+               <h3>Newsletter</h3><br>
+               <input placeholder="Your Name"><br><br>
+               <input placeholder="Your Email"><br><br>
+               <button type="submit" class="footer-button">Subscribe Now</button>
+           </div>
+        </div>
+          </div>
+   
+<script src="./js/bootstrap.bundle.min.js"></script>
+<!-- <!-- <script src="./js/fontawesome.min.js"></script> -- -->
+
+<script src="./script.js"></script>
+</body>
+</html>
